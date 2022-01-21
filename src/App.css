@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -37,25 +37,42 @@
   }
 }
 
-code{
+code {
   word-break: break-all;
   max-width: 400px;
   display: block;
   font-size: 12px;
 }
 
-h3{
+h3 {
   margin-bottom: 0;
 }
 
-p{
+p {
   margin: 0;
-  margin-bottom: 10px;
-  font-size: 14px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  width: 50rem;
 }
 
-button{
+button {
+  display: block;
+  padding: 12px;
   margin-bottom: 12px;
+  width: 25rem;
+  word-wrap: none;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
+button:hover {
+  background-color: rgb(185, 19, 19);
+  cursor: pointer;
+}
 
+img {
+  margin-bottom: 3rem;
+}
